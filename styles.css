@@ -48,25 +48,40 @@ a {
 
 .box-insta {
     border-radius: 20px;
-    width: 20%;
     margin: 1em auto;
     align-items: center;
     background: linear-gradient(25deg, rgba(249,206,52,1) 0%, rgba(238,42,123,1) 50%, rgba(98,40,215,1) 100%);    
     transition: all 0.3s;
+    display: flex;
+    padding: 0px 30px;
    
 }
 
+.item-insta {
+    display: inline;
+    transition: all 0.3s;
+    padding: 0px 10px;
+    border-radius: 20px;
+
+}
+
+.item-insta:hover {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s;
+    border-radius: 20px;
+    padding: 0px 20px;
+}
 
 .item-text-insta {
     color: rgb(255, 255, 255);
     transition: all 0.3s;
-    width: 30%;
     margin: 5% auto;
+    justify-content: center;
     align-items: center;
     transition: all 0.3s;
 
 }
-
 
 .item-text-insta:hover {
     transition: all 0.3s;
@@ -76,7 +91,6 @@ a {
     -webkit-text-fill-color: transparent;
     color: transparent; /* Ensures the text color is transparent */
     scale: 1.1;
-    margin: 5% auto;
     align-items: center;
 }
 
