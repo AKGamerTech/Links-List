@@ -3,9 +3,9 @@ body {
   background-color: rgb(28, 130, 173);
   background: radial-gradient(
       circle,
-      rgba(28, 130, 173, 1) 0%,
-      rgba(0, 51, 124, 1) 50%,
-      rgba(19, 0, 90, 1) 90%
+      #7C00FE 0%,
+      #4E31AA 50%,
+      #3A1078 90%
     )
     center center / cover no-repeat fixed;
   margin: 0;
@@ -41,7 +41,7 @@ body {
 
     padding: 5vb;
     .Links-Container {
-      background-color: rgba(28, 130, 173, 0.5);
+      background-color: #3A1078;
       border-radius: 2vb;
       .Links-Tittle {
         color: white;
@@ -62,7 +62,7 @@ body {
         gap: 10px;
         margin: 2vb;
         transition: all 0.3s ease-in-out;
-        border-color: rgba(3, 201, 136, 0.6);
+        border-color: #4E31AA;
 
         .Links-Img {
           display: flex;
@@ -88,27 +88,21 @@ body {
         }
       }
       .Links-Item:hover {
-        background-color: rgba(3, 201, 136, 0.3);
+        background-color: #7C00FE;
       }
     }
     .Youtube {
-      background-color: rgba(255, 0, 0, 0.3);
+      background-color: rgba(150, 0, 0, 1);
       .Links-Item{
-        border-color: rgba(255, 0, 0, 0.3);
+        border-color: rgba(255, 0, 0, 1);
       }
       .Links-Item:hover {
-        background-color: rgba(255, 0, 0, 0.3);
+        background-color: rgba(150, 0, 0, 0.3);
       }
     }
 
     .Instagram {
       background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
-      .Links-Item{
-        border-color: purple;
-      }
-      .Links-Item:hover {
-        background-color: linear-gradient(#833ab4, #fd1d1d, #fcb045);
-      }
     }
     .Project{
         img{

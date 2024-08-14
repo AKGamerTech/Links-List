@@ -1,17 +1,20 @@
 html,
 body {
   background-color: rgb(28, 130, 173);
-  background: radial-gradient(circle, rgb(28, 130, 173) 0%, rgb(0, 51, 124) 50%, rgb(19, 0, 90) 90%) center center/cover no-repeat fixed;
+  background: radial-gradient(circle, #7C00FE 0%, #4E31AA 50%, #3A1078 90%) center center/cover no-repeat fixed;
   margin: 0;
   max-height: 100%;
   max-width: 100%;
   height: 100%;
   width: 100%;
-  font-family: "Comfortaa", sans-serif;
   font-weight: bolder;
   align-content: center;
   justify-content: center;
   font-size: xx-large;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 .Background-Container {
@@ -35,7 +38,7 @@ body {
   padding: 5vb;
 }
 .Background-Container .Global-Container .Links-Container {
-  background-color: rgba(28, 130, 173, 0.5);
+  background-color: #3A1078;
   border-radius: 2vb;
 }
 .Background-Container .Global-Container .Links-Container .Links-Tittle {
@@ -58,7 +61,7 @@ body {
   gap: 10px;
   margin: 2vb;
   transition: all 0.3s ease-in-out;
-  border-color: rgba(3, 201, 136, 0.6);
+  border-color: #4E31AA;
 }
 .Background-Container .Global-Container .Links-Container .Links-Item .Links-Img {
   display: flex;
@@ -83,25 +86,19 @@ body {
   margin: 0 2vb 0 0;
 }
 .Background-Container .Global-Container .Links-Container .Links-Item:hover {
-  background-color: rgba(3, 201, 136, 0.3);
+  background-color: #7C00FE;
 }
 .Background-Container .Global-Container .Youtube {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgb(150, 0, 0);
 }
 .Background-Container .Global-Container .Youtube .Links-Item {
-  border-color: rgba(255, 0, 0, 0.3);
+  border-color: rgb(255, 0, 0);
 }
 .Background-Container .Global-Container .Youtube .Links-Item:hover {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(150, 0, 0, 0.3);
 }
 .Background-Container .Global-Container .Instagram {
   background: linear-gradient(#833ab4, #fd1d1d, #fcb045);
-}
-.Background-Container .Global-Container .Instagram .Links-Item {
-  border-color: purple;
-}
-.Background-Container .Global-Container .Instagram .Links-Item:hover {
-  background-color: linear-gradient(#833ab4, #fd1d1d, #fcb045);
 }
 .Background-Container .Global-Container .Project img {
   border-radius: 10px;
