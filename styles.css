@@ -44,10 +44,19 @@ body {
 .Background-Container .Global-Container .Links-Container .Links-Tittle {
   color: white;
   margin: 0;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 .Background-Container .Global-Container .Links-Container .Links-Tittle p {
   margin: 2vb 0 0 0;
-  text-align: center;
+}
+.Background-Container .Global-Container .Links-Container .Links-Tittle p img {
+  translate: 0 5px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 4vb;
+  height: 4vb;
 }
 .Background-Container .Global-Container .Links-Container .Links-Item {
   -webkit-backdrop-filter: blur(20px);

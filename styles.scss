@@ -46,9 +46,19 @@ body {
       .Links-Tittle {
         color: white;
         margin: 0;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        
         p {
           margin: 2vb 0 0 0;
-          text-align: center;
+
+          img{
+            translate:(0 5px);
+            object-fit: contain;
+            width: 4vb;
+            height: 4vb;
+          }
         }
       }
       .Links-Item {
