@@ -1,7 +1,7 @@
 html,
 body {
-  background-color: rgb(28, 130, 173);
-  background: radial-gradient(circle, #7C00FE 0%, #4E31AA 50%, #3A1078 90%) center center/cover no-repeat fixed;
+  background-color: rgb(58, 16, 120);
+  background: radial-gradient(circle, #7C00FE 0%, #4E31AA 50%, #3A1078 100%) center center/cover no-repeat fixed;
   margin: 0;
   max-height: 100%;
   max-width: 100%;
@@ -10,7 +10,7 @@ body {
   font-weight: bolder;
   align-content: center;
   justify-content: center;
-  font-size: x-large;
+  font-size: xx-large;
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
@@ -19,9 +19,9 @@ body {
 
 .Background-Container {
   display: flex;
-  margin: 0 10%;
+  margin: 0% 10%;
   border-radius: 2vb;
-  background: rgba(0, 51, 124, 0.2);
+  background-color: rgba(58, 16, 120, 0.3);
   align-self: center;
   justify-self: center;
 }
@@ -85,8 +85,9 @@ body {
   height: 4vb;
 }
 .Background-Container .Global-Container .Links-Container .Links-Item .Links-Text {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
 }
 .Background-Container .Global-Container .Links-Container .Links-Item .Links-Text p {
@@ -121,14 +122,41 @@ a {
   body {
     font-size: x-large;
   }
+  .Background-Container {
+    margin: 5% 15%;
+  }
+  .Links-Container {
+    font-size: xx-large;
+    width: 70%;
+    justify-content: left;
+    text-align: left;
+  }
 }
 @media (max-width: 768px) {
   body {
     font-size: large !important;
   }
+  .Background-Container {
+    margin: 0 15%;
+  }
+  .Links-Container {
+    font-size: x-large;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
+  }
 }
 @media (max-width: 480px) {
   body {
     font-size: large !important;
+  }
+  .Background-Container {
+    margin: 0;
+  }
+  .Links-Container {
+    font-size: x-large;
+    width: 100%;
+    justify-content: left;
+    text-align: left;
   }
 }/*# sourceMappingURL=styles.css.map */
